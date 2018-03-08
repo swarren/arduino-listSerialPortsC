@@ -1,6 +1,7 @@
 #!/bin/bash -xe
 
-JAVA_INCLUDE_PATH=/opt/jvm/jdk1.8.0/include/
+#JAVA_INCLUDE_PATH=/opt/jvm/jdk1.8.0/include/
+JAVA_INCLUDE_PATH=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/include
 
 mkdir -p distrib/linux64
 cd libserialport
